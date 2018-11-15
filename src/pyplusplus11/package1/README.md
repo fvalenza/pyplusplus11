@@ -1,0 +1,1 @@
+Each folder is a subpackage as seen by Python but must be seen by the user as a module ( it contains a python module with the same name as the subpackage and C++ file/bindings if necessary)
