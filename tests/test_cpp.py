@@ -21,7 +21,7 @@ def CPP_TEST_MODULE(mod):
   if PYTEST_RUN_CPP_TESTS:
     print()
     subprocess.check_call(os.path.join(os.path.dirname(
-            os.path.relpath(__file__)), 'bin', 'modB1_test'))
+            os.path.relpath(__file__)), 'bin', mod))
 
 class MainTest(unittest.TestCase):
     def test_cpp(self):

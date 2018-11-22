@@ -42,6 +42,7 @@ make install
 
 This Python package uses [setuptools](https://setuptools.readthedocs.io/en/latest/) for packaging. One can install it in several ways:
 
+Warning: When running multiple times install or tests commands, you may come with an error stating that there is a conflict with CMakeCache.txt files. It generally comes because the build/ directory is out of date. If so, you need to `rm -r build/` directory
 
 ##### i/ Local install of python package
 
